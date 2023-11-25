@@ -1,13 +1,6 @@
 import React from "react";
 
-const Todo = ({
-  title,
-  description,
-  isCompleted,
-  updateHandler,
-  deleteHandler,
-  index,
-}) => {
+const Todo = ({ title, isCompleted, updateHandler, deleteHandler, index }) => {
   return (
     <div className="todo">
       <div>
